@@ -213,3 +213,57 @@ h1, h2{
 .Prenotazioni-agenda .button-container a:hover{
     color: white;
 }
+
+
+
+/* Default styles for all screens */
+h1, h2 {
+    font-family: Helvetica, sans-serif;
+}
+
+/* Styles for screens between 768px and 1024px (typical tablets) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .first-row,
+    .second-row{
+        width: 900px;
+    }
+    .Area-personale,
+    .Prenotazioni-agenda,
+    .Servizi-Sanitari,
+    .Data-privacy,
+    .Avvisi,
+    .Medical-news{
+        font-size: 10px;
+    }
+    .Area-personale p,
+    .Prenotazioni-agenda p,
+    .Servizi-Sanitari p,
+    .Avvisi p,
+    .Medical-news p{
+        font-size: 18px;
+    }
+    .Data-privacy .button-container{
+        margin-left: -16rem;
+    }
+    .Medical-news{
+        width: 870px;
+    }
+   
+}
+
+/* Styles for screens larger than 1024px (typical desktops) */
+@media only screen and (min-width: 1025px) {
+    .Dashboard-main-container {
+        top: 8%;
+    }
+
+    .Dashboard-container {
+        top: 2.5%;
+    }
+
+    .Dashboard-search {
+        top: 20px;
+    }
+
+    /* Add more styles as needed for larger screens */
+}
