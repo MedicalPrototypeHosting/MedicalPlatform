@@ -126,3 +126,22 @@ body{
     width: 240px;
     margin-left: 5px;
 }
+
+@media screen and (min-width: 1300px) and (max-width: 1890px) {
+    .cella{
+        width: 203px;
+    }
+    .six-row .cella{
+        width: 203px;
+    }
+    .cellared,
+    .cellagreen,
+    .cellayellow,
+    .cellawhite{
+        width: 190px;
+    }
+    .cella .numero-data{
+        margin-left: 11rem;
+    }
+}
+

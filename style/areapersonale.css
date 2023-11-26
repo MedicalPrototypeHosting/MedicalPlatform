@@ -302,35 +302,50 @@ body{
     margin-right: 1rem;
     font-size: 18px;
 }
-@media screen and (min-width: 1300px) and (max-width: 1800px) {
-    .first-row,
-    .second-row {
-        width: 80%;
+@media screen and (min-width: 1300px) and (max-width: 1890px) {
+    .Nome input,
+    .Cognome input{
+        width: 550px;
+        margin-right: 1rem;
+        font-size: 15px;
+    }
+    .C-fiscale input,
+    .Data-nascita input,
+    .Sesso input{
+        width: 318px;
+        margin-right: 1rem;
+        font-size: 15px;
+    }
+    .Stato-nascita input,
+    .prov-nascita input,
+    .Luogo-nascita input{
+        width: 274px;
+        margin-right: 1rem;
+        font-size: 15px;
     }
 
-    .Area-personale,
-    .Prenotazioni-agenda,
-    .Servizi-Sanitari,
-    .Data-privacy,
-    .Avvisi,
-    .Medical-news {
-        font-size: 10px;
+    .Professione input,
+    .Identificativo input,
+    .Pec input{
+        width: 311px;
+        margin-right: 1rem;
+        font-size: 15px;
     }
-
-    .Area-personale p,
-    .Prenotazioni-agenda p,
-    .Servizi-Sanitari p,
-    .Avvisi p,
-    .Medical-news p {
+    .Città input,
+    .Cap input,
+    .Provincia input,
+    .Nazione input{
+        width: 220px;
+        margin-right: 1rem;
         font-size: 18px;
     }
-
-    .Data-privacy .button-container {
-        margin-left: -16rem;
+    .indirizzo input{
+        width: 1225px;
+        margin-right: 1rem;
+        font-size: 18px;
     }
-
-    .Medical-news {
-        width: 78.2%;
+    .titolo-info{
+        margin-left: 50rem;
     }
 }
 
