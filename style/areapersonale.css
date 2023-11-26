@@ -302,3 +302,35 @@ body{
     margin-right: 1rem;
     font-size: 18px;
 }
+@media screen and (min-width: 1300px) and (max-width: 1800px) {
+    .first-row,
+    .second-row {
+        width: 80%;
+    }
+
+    .Area-personale,
+    .Prenotazioni-agenda,
+    .Servizi-Sanitari,
+    .Data-privacy,
+    .Avvisi,
+    .Medical-news {
+        font-size: 10px;
+    }
+
+    .Area-personale p,
+    .Prenotazioni-agenda p,
+    .Servizi-Sanitari p,
+    .Avvisi p,
+    .Medical-news p {
+        font-size: 18px;
+    }
+
+    .Data-privacy .button-container {
+        margin-left: -16rem;
+    }
+
+    .Medical-news {
+        width: 78.2%;
+    }
+}
+
