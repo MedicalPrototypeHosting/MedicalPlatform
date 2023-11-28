@@ -8,7 +8,7 @@ h1, h2{
     position: absolute;
     top: 8%;
     width: 100%;
-    height: 1000px;
+    height: 1550px;
     background-color: rgb(230, 230, 230);
     border-radius: 25px;
     box-shadow: 1px 4px 8px 2px rgb(145, 145, 145);
@@ -304,27 +304,53 @@ h1, h2{
         width: 25px;
         height: 25px;
     }
-    
     .content-row{
         width: 85%;
         margin-top: 1rem;
     }
-    .first-row{
+    .first-row,
+    .second-row{
         width: 85%;
         display: inline-block;
         margin-left: -0.5rem;
     }
-    .first-row div{
+    .first-row div,
+    .second-row div{
         width: 100%;
+        height: 100%;
     }
-    .first-row div h1{
+    .first-row div h1,
+    .second-row div h1{
         font-size: 20px;
         transform: translate(0%, 50%);
     }
-    .first-row div .text-content{
+    .first-row div .text-content,
+    .second-row div .text-content{
         font-size: 18px;
         margin-top: 2rem;
     }
-
-
+    .first-row .button-container,
+    .second-row .button-container{
+        transform: translate(0%, -20%);
+    }
+    .Data-privacy .button-container{
+        margin-left: -30rem;
+    }
+    .second-row .Data-privacy{
+        height: 130px;
+    }
+    .Data-privacy h1{
+        text-align: left;
+    }
+    .Medical-news{
+        width: 83%;
+    }
+    .Medical-news h1{
+        font-size: 20px;
+    }
+    .Medical-news .text-content{
+        font-size: 18px;
+        margin-top: 2rem;
+        margin-bottom: -1.2rem;
+    }
 }
