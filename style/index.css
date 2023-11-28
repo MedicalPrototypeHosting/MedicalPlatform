@@ -1,11 +1,9 @@
 h1, h2{
     font-family: Helvetica, sans-serif;
 }
-
 .Home-Page-container h1{
     margin-left: 1rem;
 }
-
 .Dashboard-main-container{
     position: absolute;
     top: 8%;
@@ -34,7 +32,6 @@ h1, h2{
 .Dashboard-container-title h2{
     margin-left: 2rem;
 }
-
 .Dashboard-search{
     border:none;
     border-bottom: 2px solid grey;
@@ -122,7 +119,6 @@ h1, h2{
     border: 2px solid rgb(108, 154, 255);
     color: rgb(108, 154, 255);
 }
-
 .Data-privacy .button-container{ 
     width: 170px;
     height: 40px;
@@ -199,7 +195,6 @@ h1, h2{
     background-size: cover;
     background-position: center;
 }
-
 .Area-personale .button-container a,
 .Prenotazioni-agenda .button-container a{
     text-decoration: none;
@@ -251,3 +246,58 @@ h1, h2{
 }
 
 
+
+@media only screen and (max-width: 767px) {
+    .Home-Page-container h1{
+        font-size: 20px;
+    }
+    .Dashboard-main-container {
+        top: 3.5rem;
+        width: 94%;
+        margin-left: 3%; 
+        transform: translate(-1.5%, 0%);
+    }
+
+    .Dashboard-container-title h2{
+        font-size: 15px;
+        margin-left: 0.5rem;
+    }
+    .Dashboard-search{
+        margin-top: -0.8rem;
+        margin-left: 0.5rem;
+    }
+    .Dashboard-search input{
+        width: 80px;
+        font-size: 15px;
+    }
+    .Dashboard-search-Lente{
+        width: 25px;
+        height: 25px;
+    }
+    .Dashboard-title-tools{
+        margin-top: 0.5rem;
+    }
+    .Dashboard-title-tools button{
+        width: 25px;
+        height: 25px;
+    }
+    .Dashboard-title-tools button img{
+        width: 20px;
+        height: 20px;
+    }
+
+
+
+    .Dashboard-container {
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .content-row{
+        display: none;
+    }
+    
+
+}
