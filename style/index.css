@@ -210,9 +210,6 @@ h1, h2{
 }
 
 
-
-
-
 @media screen and (min-width: 950px) and (max-width: 1800px) {
     .first-row,
     .second-row {
@@ -257,14 +254,13 @@ h1, h2{
         margin-left: 3%; 
         transform: translate(-1.5%, 0%);
     }
-
     .Dashboard-container-title h2{
         font-size: 15px;
         margin-left: 0.5rem;
     }
     .Dashboard-search{
         margin-top: -0.8rem;
-        margin-left: 0.5rem;
+        margin-left: 0.8rem;
     }
     .Dashboard-search input{
         width: 80px;
@@ -273,6 +269,11 @@ h1, h2{
     .Dashboard-search-Lente{
         width: 25px;
         height: 25px;
+    }
+    .Dashboard-search-Lente img{
+        width: 20px;
+        height: 20px;
+        margin-top: 0.2rem;
     }
     .Dashboard-title-tools{
         margin-top: 0.5rem;
@@ -285,19 +286,45 @@ h1, h2{
         width: 20px;
         height: 20px;
     }
-
-
-
     .Dashboard-container {
         top: 0;
         left: 0;
         width: 100%;
         height: 100%;
     }
-
-    .content-row{
-        display: none;
+    .tools-bar{
+        width: 15%;
+    }
+    .tools-bar button{
+        width: 25px;
+        height: 30px;
+        margin-left: 0.8rem;
+    }
+    .tools-bar button img{
+        width: 25px;
+        height: 25px;
     }
     
+    .content-row{
+        width: 85%;
+        margin-top: 1rem;
+    }
+    .first-row{
+        width: 85%;
+        display: inline-block;
+        margin-left: -0.5rem;
+    }
+    .first-row div{
+        width: 100%;
+    }
+    .first-row div h1{
+        font-size: 20px;
+        transform: translate(0%, 50%);
+    }
+    .first-row div .text-content{
+        font-size: 18px;
+        margin-top: 2rem;
+    }
+
 
 }
