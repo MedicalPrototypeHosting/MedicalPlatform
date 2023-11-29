@@ -385,7 +385,7 @@ body{
     }
     
     .data-information{
-        height: 230px;
+        height: 220px;
     }
     .data-information img{
         width: 150px;
@@ -393,25 +393,26 @@ body{
         margin-left: 1rem;
     }
     .data-information-text{
-        font-size: 15px;
+        font-size: 13px;
+        margin-left: -1rem;
     }
     .check-information{
-        top: 8rem;
-        left: 7.5rem;
+        top: 9rem;
+        left: 1rem;
         display: flex;
-        font-size: 13px;
+        font-size: 8px;
     }
     .check-information p{
-        margin-left: 0.5rem;
+        margin-left: -0.5rem;
     }
     .check-information img{
-        width: 20px;
-        height: 20px;
+        width: 10px;
+        height: 10px;
     }
 
     .information-tools{
-        left: 1rem;
-        top: 9rem;
+        right: 1rem;
+        top: 8rem;
     }
     .information-tools .first-row button img,
     .information-tools .second-row button img{
