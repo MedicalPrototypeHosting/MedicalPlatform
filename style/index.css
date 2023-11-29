@@ -354,7 +354,11 @@ h1, h2{
         margin-top: 2rem;
         margin-bottom: -1.2rem;
     }
-    .button-container{
-        font-size: 18px;
+    .content-row div .button-container a,
+    .content-row div .button-container p{
+        font-size: 15px;
+    }
+    .content-row div .button-container{
+        height: 30px;
     }
 }
