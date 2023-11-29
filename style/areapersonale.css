@@ -156,8 +156,6 @@ body{
 .no-active-last:hover{
     cursor: pointer;
 }
-
-
 .Dati-Users-content{
     width: 96%;
     margin-left: 2%;
@@ -213,7 +211,6 @@ body{
 .Dati-user-four-row div{
     display: flex;
 }
-
 .Dati-user-first-row input,
 .Dati-user-second-row input,
 .Dati-user-third-row input,
@@ -222,7 +219,6 @@ body{
     border: none;
     border-bottom: 1px solid rgb(149, 149, 149, 0.4);
 }
-
 .Nome,
 .Cognome,
 .C-fiscale,
@@ -249,7 +245,6 @@ body{
     margin-right: 1rem;
     font-size: 18px;
 }
-
 .C-fiscale input,
 .Data-nascita input,
 .Sesso input{
@@ -264,7 +259,6 @@ body{
     margin-right: 1rem;
     font-size: 18px;
 }
-
 .Professione input,
 .Identificativo input,
 .Pec input{
@@ -272,7 +266,6 @@ body{
     margin-right: 1rem;
     font-size: 18px;
 }
-
 .Indirizzo{
     width: 96%;
     margin-left: 2%;
@@ -288,7 +281,6 @@ body{
 .Indirizzo div{
     margin-left: 1.5rem;
 }
-
 .Città input,
 .Cap input,
 .Provincia input,
@@ -349,4 +341,98 @@ body{
     }
 }
 
-@media only screen and (max-width: 767px) {}
+@media only screen and (max-width: 767px) {
+    .tools-bar .menu{
+        margin-left: -1.7rem;
+        width: 30px;
+        height: 30px;
+    }
+    .tools-bar .menu a img{
+        width: 20px;
+        height: 20px;
+    }
+    .tools-bar .title{
+        margin-left: -3.5rem;
+        font-size: 15px;
+        width: 50px;
+        margin-top: 0.5rem;
+    }
+    .tools-bar .search{
+        width: 130px;
+        font-size: 15px;
+        left: 7rem;
+        margin-top: -0.2rem;
+    }
+    .tools-bar .lente{
+        width: 30px;
+        height: 30px;
+        margin-top: 0.5rem;
+        left: 15rem;
+    }
+    .tools-bar .lente img{
+        width: 20px;
+        height: 20px;
+    }
+    .tools-bar .news{
+        width: 30px;
+        height: 30px;
+        right: 3rem;
+    }
+    .tools-bar .users{
+        width: 30px;
+        height: 30px;
+        right: 1rem;
+    }
+    
+    .data-information{
+        height: 230px;
+    }
+    .data-information img{
+        width: 150px;
+        height: 75px;
+        margin-left: 1rem;
+    }
+    .data-information-text{
+        font-size: 15px;
+    }
+    .check-information{
+        top: 8rem;
+        left: 7.5rem;
+        display: flex;
+        font-size: 13px;
+    }
+    .check-information p{
+        margin-left: 0.5rem;
+    }
+    .check-information img{
+        width: 20px;
+        height: 20px;
+    }
+
+    .information-tools{
+        left: 1rem;
+        top: 9rem;
+    }
+    .information-tools .first-row button img,
+    .information-tools .second-row button img{
+        width: 25px;
+        height: 25px;
+        margin-left: 0rem;
+    }
+    .information-tools .first-row button,
+    .information-tools .second-row button
+    {
+        width: 45px;
+        height: 35px;
+    }
+    .information-tools .first-row{
+        width: 90px;
+    }
+
+
+
+
+    .Dati-Users-Div{
+        top: 40rem;
+    }
+}
