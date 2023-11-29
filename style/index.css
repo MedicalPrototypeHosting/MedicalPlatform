@@ -369,3 +369,8 @@ h1, h2{
         height: 1650px;
     }
 }
+@media only screen and (max-width: 255px){
+    .Dashboard-main-container {
+        height: 1750px;
+    }
+}
