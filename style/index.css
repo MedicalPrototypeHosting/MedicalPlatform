@@ -254,6 +254,9 @@ h1, h2{
         margin-left: 3%; 
         transform: translate(-1.5%, 0%);
     }
+    .Dashboard-container{
+        height: 1550px;
+    }
     .Dashboard-container-title h2{
         font-size: 15px;
         margin-left: 0.5rem;
