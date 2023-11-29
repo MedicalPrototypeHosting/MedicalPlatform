@@ -253,7 +253,7 @@ h1, h2{
         width: 94%;
         margin-left: 3%; 
         transform: translate(-1.5%, 0%);
-        height: 1800px;
+        height: 1700px;
     }
     
     .Dashboard-container-title h2{
@@ -347,6 +347,7 @@ h1, h2{
     .Medical-news{
         width: 85%;
         margin-left: 1.5rem;
+        height: 300px;
     }
     .Medical-news h1{
         font-size: 20px;
