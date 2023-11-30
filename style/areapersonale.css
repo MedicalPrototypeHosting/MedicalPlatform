@@ -431,7 +431,6 @@ body{
     .Dati-Users-Div{
         top: 21rem;
     }
-
     .no-active img,
     .active img,
     .no-active-last img{
@@ -452,5 +451,59 @@ body{
     .no-active-last{
         height: 55px;
     }
+    .Dati-Users-content{
+        margin-top: 1.5rem;
+    }
+    .titolo-ana{
+        font-size: 18px;
+    }
+    .Titolo img{
+        width: 30px;
+        height: 30px;
+    }
+    .titolo-info{
+        margin-left: 4rem;
+        margin-top: 0.3rem;
+    }
+    .titolo-info h1{
+        font-size: 15px;
+    }
+    .titolo-info button{
+        width: 50px;
+        height: 30px;
+    }
 
+    .Dati-user-first-row,
+    .Dati-user-second-row,
+    .Dati-user-third-row,
+    .Dati-user-four-row{
+        display: inline-block;
+        font-size: 15px;
+    }
+    .Dati-Users-content{
+        height: 700px;
+    }
+    .Dati-user-first-row input,
+    .Dati-user-second-row input,
+    .Dati-user-third-row input,
+    .Dati-user-four-row input{
+        width: 60%;
+        font-size: 15px;
+    }
+    .Dati-user-first-row div p,
+    .Dati-user-second-row div p,
+    .Dati-user-third-row div p,
+    .Dati-user-four-row div p{
+        width: 40%;
+        margin-left: -1rem;
+    }
+
+    .Indirizzo h1{
+        font-size: 18px;
+        margin-left: 1rem;
+    }
+
+    .Indirizzo{
+        height: 300px;
+    }
 }
