@@ -383,8 +383,8 @@ body{
         height: 30px;
         right: 1rem;
     }
-    
     .data-information{
+        top: 6rem;
         height: 220px;
     }
     .data-information img{
@@ -409,7 +409,6 @@ body{
         width: 10px;
         height: 10px;
     }
-
     .information-tools{
         right: 1rem;
         top: 8rem;
@@ -429,11 +428,29 @@ body{
     .information-tools .first-row{
         width: 90px;
     }
-
-
-
-
     .Dati-Users-Div{
-        top: 40rem;
+        top: 21rem;
     }
+
+    .no-active img,
+    .active img,
+    .no-active-last img{
+        width: 25px;
+        height: 25px;
+    }
+    .no-active p,
+    .active p,
+    .no-active-last p{
+        font-size: 8px;
+    }
+    .no-active,
+    .active,
+    .no-active-last{
+        width: 55px;
+        height: 60px;
+    }
+    .no-active-last{
+        height: 55px;
+    }
+
 }
