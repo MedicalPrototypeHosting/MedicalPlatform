@@ -471,7 +471,7 @@ body{
     .titolo-info button{
         width: 50px;
         height: 30px;
-        right: 2rem;
+        margin-right: 2;
     }
 
     .Dati-user-first-row,
@@ -482,7 +482,7 @@ body{
         font-size: 15px;
     }
     .Dati-Users-content{
-        height: 720px;
+        height: 760px;
     }
     .Dati-user-first-row input,
     .Dati-user-second-row input,
@@ -505,9 +505,9 @@ body{
     }
 
     .Indirizzo{
-        height: 340px;
+        height: 380px;
     }
     .Dati-Users-Div{
-        height: 1200px;
+        height: 1800px;
     }
 }
