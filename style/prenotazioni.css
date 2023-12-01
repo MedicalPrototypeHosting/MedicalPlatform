@@ -47,7 +47,6 @@ body{
 .filter{
     width: 70px;
 }
-
 .prenotazioni-container{
     border: 1px solid  rgb(149, 149, 149, 0.5);
     width: 95%;
@@ -145,3 +144,59 @@ body{
     }
 }
 
+
+@media only screen and (max-width: 767px) {
+    .title{
+        font-size: 18px;
+    }
+    .prenotazioni-tools{
+        margin-left: 0.2rem;
+    }
+    .prenotazioni-tools button img{
+        width: 20px;
+        height: 20px;
+    }
+    .add,
+    .menu,
+    .modify,
+    .delete{
+        width: 35px;
+        height: 35px;
+        margin-left: 0.2rem;
+    }   
+    .prenotazioni-tools input{
+        width: 120px;
+        height: 35px;
+        font-size: 12px;
+    }
+    .filter{
+        width: 45px;
+        height: 35px;
+    }
+
+    .first-row .cella-titolo{
+        font-size: 12px;
+        margin-bottom: 0rem;
+    }
+    .cella{
+        width: 13.75%;
+        height: 165px;
+        font-size: 10px;
+    }
+    .cellared,
+    .cellawhite,
+    .cellagreen,
+    .cellayellow{
+        font-size: 8px;
+        height: 40px;
+        width: 85%;
+        margin-bottom: 1rem;
+    }
+    .cella .numero-data{
+        margin-left: 2rem;
+        margin-bottom: 1rem;
+    }
+    .six-row .cella{
+        width: 13.75%;
+    }
+}
